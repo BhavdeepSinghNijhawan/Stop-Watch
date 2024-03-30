@@ -15,3 +15,7 @@ A stopwatch is a handheld timekeeping device used to measure the amount of time 
 # LIVE URL
 
 https://bhavdeepsinghnijhawan.github.io/Stop-Watch/
+
+# CONTRIBUTOR
+
+- [Bhavdeep Singh Nijhawan](https://www.linkedin.com/in/bhavdeep-singh-nijhawan-739634280)
