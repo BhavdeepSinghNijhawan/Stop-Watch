@@ -206,7 +206,106 @@ h1 {
 } 
 ```
 - Sets the background color for the reset button to bright orange.
+
 ### JavaScript
+
+```
+let startBtn = document.getElementById('start'); 
+let stopBtn = document.getElementById('stop'); 
+let resetBtn = document.getElementById('reset'); 
+
+let hour = 0; 
+let minute = 0; 
+let second = 0; 
+let count = 0; 
+```
+- Retrieves the start, stop, and reset buttons from the HTML.
+- Initializes variables for hours, minutes, seconds, and count to 0.
+```
+startBtn.addEventListener('click', function () { 
+    timer = true; 
+    stopWatch(); 
+}); 
+
+stopBtn.addEventListener('click', function () { 
+    timer = false; 
+}); 
+
+resetBtn.addEventListener('click', function () { 
+    timer = false; 
+    hour = 0; 
+    minute = 0; 
+    second = 0; 
+    count = 0; 
+    document.getElementById('hr').innerHTML = "00"; 
+    document.getElementById('min').innerHTML = "00"; 
+    document.getElementById('sec').innerHTML = "00"; 
+    document.getElementById('count').innerHTML = "00"; 
+}); 
+```
+- Adds click event listeners to the start, stop, and reset buttons.
+- The start button sets timer to true and calls the stopWatch function.
+- The stop button sets timer to false.
+- The reset button sets timer to false and resets the time variables and the displayed time.
+
+```
+function stopWatch() { 
+    if (timer) { 
+        count++; 
+
+        if (count == 100) { 
+            second++; 
+            count = 0; 
+        } 
+
+        if (second == 60) { 
+            minute++; 
+            second = 0; 
+        } 
+
+        if (minute == 60) { 
+            hour++; 
+            minute = 0; 
+            second = 0; 
+        } 
+
+        let hrString = hour; 
+        let minString = minute; 
+        let secString = second; 
+        let countString = count; 
+
+        if (hour < 10) { 
+            hrString = "0" + hrString; 
+        } 
+
+        if (minute < 10) { 
+            minString = "0" + minString; 
+        } 
+
+        if (second < 10) { 
+            secString = "0" + secString; 
+        } 
+
+        if (count < 10) { 
+            countString = "0" + countString; 
+        } 
+
+        document.getElementById('hr').innerHTML = hrString; 
+        document.getElementById('min').innerHTML = minString; 
+        document.getElementById('sec').innerHTML = secString; 
+        document.getElementById('count').innerHTML = countString; 
+        setTimeout(stopWatch, 10); 
+    } 
+}
+```
+- Defines the stopWatch function that runs the stopwatch logic.
+- If timer is true, increments the count.
+- When count reaches 100, increments second and resets count to 0.
+- When second reaches 60, increments minute and resets second to 0.
+- When minute reaches 60, increments hour and resets minute and second to 0.
+- Formats the time values to ensure two-digit display.
+- Updates the HTML elements with the current time values.
+- Calls the stopWatch function again after 10 milliseconds using setTimeout.
 
 ## CONTRIBUTOR
 
