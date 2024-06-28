@@ -1,4 +1,4 @@
-<h1 align="center">Stop Watch</h1>
+<h1 align="center">STOP WATCH</h1>
 
 <p align="center">
   <img src="https://github.com/BhavdeepSinghNijhawan/Stop-Watch/assets/143419096/3fe6f522-bdb6-4650-846d-3554b92cc9a6" />
