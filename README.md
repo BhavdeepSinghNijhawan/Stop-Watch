@@ -114,6 +114,98 @@ https://bhavdeepsinghnijhawan.github.io/Stop-Watch/
 - **End of Body and HTML Elements:** This marks the end of the body and the entire HTML document.
 
 ### CSS
+
+```
+body { 
+    padding: 0; 
+    margin: 0; 
+    font-family: verdana; 
+} 
+```
+- Removes all padding and margin from the body.
+
+```
+.container { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 100vh; 
+    background-color: rgb(0, 0, 0); 
+} 
+```
+- Uses Flexbox to center the content both vertically and horizontally.
+- Sets the width to 100% and height to 100vh (viewport height).
+- Sets the background color to black.
+```
+h1 { 
+    color: rgb(255, 115, 0); 
+    text-align: center; 
+} 
+```
+- Sets the color of the heading to a bright orange.
+- Centers the text.
+```
+.digit { 
+    font-size: 150px; 
+    color: #fff; 
+} 
+```
+- Sets the font size for the digits to be very large (150px).
+- Sets the color to white.
+```
+.txt { 
+    font-size: 30px; 
+    color: #fffcd6; 
+} 
+```
+- Sets the font size for the text to 30px.
+- Uses a light yellow color.
+```
+#buttons { 
+    margin-top: 50px; 
+} 
+```
+- Adds a margin at the top of the buttons container.
+```
+.btn { 
+    width: 100px; 
+    padding: 10px 15px; 
+    margin: 0px 20px; 
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 4px; 
+    border-top-left-radius: 4px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    transition: 0.5s; 
+    color: white; 
+    font-weight: 500; 
+} 
+```
+- Sets the width, padding, and margin for the buttons.
+- Adds various border-radius values for rounded corners.
+- Changes the cursor to a pointer when hovering over the button.
+- Sets the font size, transition time, text color, and font weight.
+```
+#start { 
+    background-color: rgb(255, 115, 0); 
+} 
+```
+- Sets the background color for the start button to bright orange.
+```
+#stop { 
+    background-color: rgb(255, 115, 0); 
+} 
+```
+- Sets the background color for the stop button to bright orange.
+```
+#reset { 
+    background-color: rgb(255, 115, 0); 
+} 
+```
+- Sets the background color for the reset button to bright orange.
 ### JavaScript
 
 ## CONTRIBUTOR
