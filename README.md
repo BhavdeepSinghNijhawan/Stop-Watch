@@ -6,6 +6,10 @@
 
 A stopwatch is a handheld timekeeping device used to measure the amount of time elapsed between a starting point and an ending point. It typically features a set of buttons for starting, stopping, and resetting the timer. Stopwatches are commonly used in various activities where precise timing is important, such as sports, science experiments, and other time-sensitive applications.
 
+## LIVE URL
+
+https://bhavdeepsinghnijhawan.github.io/Stop-Watch/
+
 ## TECK STACK
 
 ### HTML
@@ -111,10 +115,6 @@ A stopwatch is a handheld timekeeping device used to measure the amount of time 
 
 ### CSS
 ### JavaScript
-
-## LIVE URL
-
-https://bhavdeepsinghnijhawan.github.io/Stop-Watch/
 
 ## CONTRIBUTOR
 
