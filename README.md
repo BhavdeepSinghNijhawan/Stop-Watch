@@ -73,13 +73,13 @@ A stopwatch is a handheld timekeeping device used to measure the amount of time 
 <span class="digit" id="count">00</span>
 ```
 - **Span Elements:** These elements display the digits and labels for the stopwatch.
-  - **<span class="digit" id="hr">00</span>:** Displays hours with the id "hr" and class "digit".
-  - **<span class="txt">Hr</span>:** Displays the label "Hr".
-  - **<span class="digit" id="min">00</span>:** Displays minutes with the id "min" and class "digit".
-  - **<span class="txt">Min</span>:** Displays the label "Min".
-  - **<span class="digit" id="sec">00</span>:** Displays seconds with the id "sec" and class "digit".
-  - **<span class="txt">Sec</span>:** Displays the label "Sec".
-  - **<span class="digit" id="count">00</span>:** Displays the count (likely hundredths of a second) with the id "count" and class "digit".
+  - <span class="digit" id="hr">00</span>: Displays hours with the id "hr" and class "digit".
+  - <span class="txt">Hr</span>: Displays the label "Hr".
+  - <span class="digit" id="min">00</span>: Displays minutes with the id "min" and class "digit".
+  - <span class="txt">Min</span>: Displays the label "Min".
+  - <span class="digit" id="sec">00</span>: Displays seconds with the id "sec" and class "digit".
+  - <span class="txt">Sec</span>: Displays the label "Sec".
+  - <span class="digit" id="count">00</span>: Displays the count (likely hundredths of a second) with the id "count" and class "digit".
 ```
 </div>
 ```
