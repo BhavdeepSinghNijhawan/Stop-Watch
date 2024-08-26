@@ -167,7 +167,9 @@ h1 {
     margin-top: 50px; 
 } 
 ```
+
 - Adds a margin at the top of the buttons container.
+
 ```
 .btn { 
     width: 100px; 
@@ -184,27 +186,34 @@ h1 {
     font-weight: 500; 
 } 
 ```
-- Sets the width, padding, and margin for the buttons.
-- Adds various border-radius values for rounded corners.
+
+- Sets the **width**, **padding**, and **margin** for the buttons.
+- Adds **various border-radius values** for rounded corners.
 - Changes the cursor to a pointer when hovering over the button.
-- Sets the font size, transition time, text color, and font weight.
+- Sets the **font size**, **transition time**, **text color**, and **font weight**.
+
 ```
 #start { 
     background-color: rgb(255, 115, 0); 
 } 
 ```
+
 - Sets the background color for the start button to bright orange.
+
 ```
 #stop { 
     background-color: rgb(255, 115, 0); 
 } 
 ```
+
 - Sets the background color for the stop button to bright orange.
+
 ```
 #reset { 
     background-color: rgb(255, 115, 0); 
 } 
 ```
+
 - Sets the background color for the reset button to bright orange.
 
 ### JavaScript
@@ -219,8 +228,10 @@ let minute = 0;
 let second = 0; 
 let count = 0; 
 ```
+
 - Retrieves the start, stop, and reset buttons from the HTML.
 - Initializes variables for hours, minutes, seconds, and count to 0.
+
 ```
 startBtn.addEventListener('click', function () { 
     timer = true; 
@@ -243,10 +254,11 @@ resetBtn.addEventListener('click', function () {
     document.getElementById('count').innerHTML = "00"; 
 }); 
 ```
-- Adds click event listeners to the start, stop, and reset buttons.
-- The start button sets timer to true and calls the stopWatch function.
-- The stop button sets timer to false.
-- The reset button sets timer to false and resets the time variables and the displayed time.
+
+- Adds click event listeners to the **start**, **stop**, and **reset** buttons.
+- The **start button **sets timer to true** and **calls the stopWatch function**.
+- The **stop button sets timer to false**.
+- The **reset button sets timer to false** and **resets the time variables** and **the displayed time**.
 
 ```
 function stopWatch() { 
@@ -305,7 +317,7 @@ function stopWatch() {
 - When minute reaches 60, increments hour and resets minute and second to 0.
 - Formats the time values to ensure two-digit display.
 - Updates the HTML elements with the current time values.
-- Calls the stopWatch function again after 10 milliseconds using setTimeout.
+- Calls the stopWatch function again after 10 milliseconds using **`setTimeout`**.
 
 ## CONTRIBUTOR
 
